@@ -1,0 +1,112 @@
+/* External Style Sheet */
+
+body
+{
+    font-family: 'Livvic', sans-serif;
+    font-size: 12pt;
+    color: black;
+    background-color:whitesmoke ;
+    min-height: 100vh;
+}
+
+.heading1
+{
+    text-align: center;
+    border-color:rgb(146, 8, 54); 
+    border-bottom-style: solid;
+    border-bottom-width: 1cm;
+    color: white;
+    font-family: 'Livvic', sans-serif;
+    font-size: 28pt;
+    font-weight: bold;
+    background-color: black;
+}
+
+.container
+{
+    width: 50%;
+    color: black;
+    align-items: center;
+    padding-left: 25%;
+    padding-right: 25%;
+    min-height: 65vh;
+}
+
+h1
+{
+    padding: 20px;
+}
+
+.errorMessages
+{
+    font-family: 'Livvic', sans-serif;
+    font-size: 12pt;
+    color: rgb(201, 0, 0);
+    text-align: center;
+    font-weight: bold;
+    font-style: normal;
+    align-content: center;
+}
+
+.studentDetails
+{ 
+    color: black ;
+    text-align: left;
+    font-family:'Livvic', sans-serif;
+    align-content: center;
+    
+}
+
+.progressDetails
+{
+    color: black ;
+    text-align: left;
+    font-family:'Livvic', sans-serif;
+    padding-bottom: 1.2cm;
+    align-content: center;
+}
+
+footer
+{
+    background-color: black;
+    border-top-color: rgb(146, 8, 54);
+    border-top-style: solid;
+    border-top-width: 0.3cm; 
+}
+
+table
+{
+    border-radius: 22px;
+    border-color: rgb(146, 8, 54);
+    padding: 12px;
+}
+
+tr
+{
+    height: 0.8cm;
+}
+
+td, th
+{
+    border: 0px solid  rgb(146, 8, 54);
+}
+
+input
+{
+    font-size: 12pt;
+    font-family: inherit;
+}
+
+select
+{
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 12pt;
+}
+
+option
+{
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 12pt;
+}
